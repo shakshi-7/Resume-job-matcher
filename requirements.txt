@@ -3,3 +3,4 @@ tensorflow
 tensorflow-hub
 PyPDF2
 python-docx
+python_version == 3.10
