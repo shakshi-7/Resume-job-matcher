@@ -19,7 +19,7 @@ if resume_file and job_desc:
     with st.spinner("Analyzing..."):
         resume_text = extract_text(resume_file)
         if resume_text.strip() == "":
-            st.error("No text found in resume.")
+            st.error("No text found.")
         else:
             resume_vec = get_embedding(resume_text)
             job_vec = get_embedding(job_desc)
