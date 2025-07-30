@@ -1,7 +1,8 @@
-streamlit
-tensorflow==2.13.0
-tensorflow-hub==0.13.0
-protobuf==3.20.3
-PyPDF2
+streamlit==1.28.0
+scikit-learn==1.2.2
+pdfplumber
+docx2txt
 python-docx
-
+beautifulsoup4
+requests
+serpapi
