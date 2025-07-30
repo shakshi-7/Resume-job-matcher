@@ -19,7 +19,7 @@ def extract_resume_text(file_path):
         return ""
 
 def get_jobs_from_google(job_title, location="India", num_results=10):
-    api_key = "YOUR_SERPAPI_KEY"
+    api_key = "0aa45283f30a3d1d4f355652070b41fa871858ded87aa5a8594c1ebdcfbb1a76"
     params = {
         "engine": "google_jobs",
         "q": job_title,
